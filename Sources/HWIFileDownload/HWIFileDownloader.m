@@ -1373,7 +1373,6 @@ didReceiveChallenge:(NSURLAuthenticationChallenge *)aChallenge
 
 - (nullable HWIFileDownloadProgress *)downloadProgressForDownloadID:(NSUInteger)aDownloadID
 {
-	// Test
     HWIFileDownloadProgress *aDownloadProgress = nil;
     HWIFileDownloadItem *aDownloadItem = [self.activeDownloadsDictionary objectForKey:@(aDownloadID)];
     if (aDownloadItem)
